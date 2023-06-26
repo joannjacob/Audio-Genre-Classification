@@ -25,7 +25,7 @@ FMA Dataset
 FMA Kaggle Dataset - https://www.kaggle.com/datasets/imsparsh/fma-free-music-archive-small-medium
 2. Download your Kaggle API file kaggle.json and upload into the colab by running the cells in the notebook. This is needed to download the dataset into the notebook.
 
-## Technologies and Tools
+## Libraries and Tools
 * Python 
 * TensorFlow
 * Keras
