@@ -38,9 +38,10 @@ ments in this field.
 
 
 ## Table of contents
-* [Datasets](#dataset)
+* [Datasets](#datasets)
 * [Libraries and Tools](#libraries)
-* [Models](#features)
+* [Models](#models)
+* [Notebooks](#notebooks)
 
 # Datasets
   - GTZAN Dataset - https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
@@ -70,5 +71,14 @@ FMA Kaggle Dataset - https://www.kaggle.com/datasets/imsparsh/fma-free-music-arc
 * CNN
 * LSTM
 * Vision Transformer (ViT)
+
+## Notebooks
+
+* Preprocessing and EDA of GTZAN dataset
+* CNN GTZAN.ipynb
+* CNN FMA.ipynb
+* VIT GTZAN.ipynb
+* VIT FMA.ipynb
+* LSTM GTZAN.ipynb
 
 
