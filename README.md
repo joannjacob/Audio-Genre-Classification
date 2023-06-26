@@ -5,6 +5,12 @@ Classify audio file into genres using deep learning techniques
 This project is done as part of DS 5500 - Capstone Project 
 Group 8: Anurathi Bala, Joann Rachel Jacob & Mitchell Leahy
 
+
+## Table of contents
+* [Datasets](#dataset)
+* [Libraries and Tools](#libraries)
+* [Models](#features)
+
 # Datasets
   - GTZAN Dataset - https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
   - FMA Small Dataset - https://www.kaggle.com/datasets/imsparsh/fma-free-music-archive-small-medium
@@ -19,8 +25,19 @@ FMA Dataset
 FMA Kaggle Dataset - https://www.kaggle.com/datasets/imsparsh/fma-free-music-archive-small-medium
 2. Download your Kaggle API file kaggle.json and upload into the colab by running the cells in the notebook. This is needed to download the dataset into the notebook.
 
-# Libraries and Tools
+## Technologies and Tools
+* Python 
+* TensorFlow
+* Keras
+* Pandas
+* NumPy
+* Matplotlib
+* Libroasa
 
+## Models
 
+* CNN
+* LSTM
+* Vision Transformer (ViT)
 
 
