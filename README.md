@@ -5,6 +5,37 @@ Classify audio file into genres using deep learning techniques
 This project is done as part of DS 5500 - Capstone Project 
 Group 8: Anurathi Bala, Joann Rachel Jacob & Mitchell Leahy
 
+Audio genre classification is essential for various music ap-
+plications, including recommendation systems and content
+organization. This project investigates the efficacy of differ-
+ent deep learning architectures, namely Convolutional Neural
+Networks (CNNs), Long Short-Term Memory (LSTM) net-
+works, and Vision Transformers (VIT), for audio genre clas-
+sification. The study utilizes the GTZAN and FMA Small
+datasets, offering a diverse collection of audio tracks span-
+ning multiple genres.
+To perform genre classification, acoustic features such as
+MFCC and Mel Spectrograms are extracted from the audio
+files in the GTZAN and FMA Small datasets. These features
+serve as the foundation for training and evaluating novel ar-
+chitectures, including Vision Transformer, RNN-LSTM, and
+CNN-based models. Extensive experimentation is conducted,
+and performance evaluation metrics, including accuracy, pre-
+cision, recall, and F1 score, are employed. The CNN and VIT
+models leverage spatial information present in the spectro-
+grams, while the LSTM model effectively captures temporal
+dependencies in the MFCC sequences. Experimental results
+demonstrate that the LSTM model performs well, achieving –
+accuracy using MFCCs, while the CNN model achieves – ac-
+curacy using Mel Spectrograms. However, the Vision Trans-
+former model exhibits lower accuracy and requires further
+improvement.
+Through a comparative analysis of these architectures, con-
+sidering their strengths and weaknesses, this project con-
+tributes to the understanding of deep learning-based audio
+genre classification and provides insights for future advance-
+ments in this field.
+
 
 ## Table of contents
 * [Datasets](#dataset)
